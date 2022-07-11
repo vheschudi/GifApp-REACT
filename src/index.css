@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main{
+  padding: 10px;
+  width: 100%;
+}
+
+.gif-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  margin-top: 1em;
+}
+
+.category{
+  display: flex;
+  align-content: flex-start;
+  margin: 10px;
+}
+
+.category-title{
+  margin-right: 10px;
+}
+
+.card{
+  max-height: 250px;  
+}
+
+.footer-end{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.effect-card {
+  line-height: 0px;
+  color: transparent; 
+  font-size: 50px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.effect-card:hover {
+  line-height: 133px;
+  color: #575858;
+}
+
+.effect-card img{ float: left;
+  margin: 0 15px;
+}
+
+.effect-card img:hover {
+  -webkit-box-shadow: 0 0 5px #999;
+  -moz-box-shadow: 0 0 5px #999;
+  -ms-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 5px #999;
+}
+
